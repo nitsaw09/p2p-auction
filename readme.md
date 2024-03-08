@@ -34,4 +34,4 @@ The auction data structure is used to represent auctions within the distributed 
 - `winnerId`: The client id of the winner of auction
 
 ## Limitations
-- Data is not stored in any database, instead it is shared among the connected peers and save in client instance temporarly until that peer is connected
+- Data is not stored in any database like hypercore or hyperbee, instead it is shared among the connected peers and save in client instance temporarly until that peer is connected
