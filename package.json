@@ -1,0 +1,17 @@
+{
+  "name": "p2p-auction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hyperdht": "^6.13.1",
+    "hyperswarm": "^4.7.14",
+    "uuid": "^9.0.0"
+  }
+}
