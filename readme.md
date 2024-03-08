@@ -11,7 +11,7 @@ A simplified implementation of a peer to peer auction using JavaScript and hyper
 
 
 ## Usage
-- To start any client peer run: `npm start`. 
+- To start multiple client peer run: `npm start` more that one terminal. 
 - To open, bid or close auction press `ctrl+n` on terminal once the peer is running and connected to another peer.
 - A prompt will be open to choose options for open (1), bid (2) or close (3) auction and ask to enter input.
   1.  `Open Auction`: inputs `Enter item` and `Enter amount` to open a new auction.
