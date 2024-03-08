@@ -210,5 +210,7 @@ rl.input.on('keypress', (key, data) => {
       closePrompt = true;
       console.log(`\nPrompt cancelled\n`);
     }
+  } else {
+    console.log(`No peer is connected yet please wait`)
   }
 });
