@@ -202,11 +202,11 @@ function promptCLoseAuction() {
 
 rl.input.on('keypress', (key, data) => {
   if (connectedSockets.length > 0) {
-    if (data.ctrl && data.name === 'n') {
+    if (data.ctrl && data.name.toLowerCase() === 'n') {
       closePrompt = false;  
       promptUser(); 
     }
-    if (data.ctrl && data.name === 'x') {
+    if (data.ctrl && data.name.toLowerCase() === 'x') {
       closePrompt = true;
       console.log(`\nPrompt cancelled\n`);
     }
